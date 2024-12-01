@@ -34,10 +34,10 @@
 ## Types of Array: 
 
 ### 1D Array: 
-![1d_array](image-1.png)
+![1d_array](images/image-1.png)
 
 ### 2d Array: 
-![alt text](image-2.png)
+![alt text](images/image-2.png)
 ```
     const ROWS: usize = 4;
     const COLS: usize = 5;

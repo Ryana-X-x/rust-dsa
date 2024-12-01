@@ -1,7 +1,7 @@
 # **Array**
 ### An array is a collection of similar data types that are stored in contigous memory locations. Each location has an index number through which we can access the element at that particular index. 
 
-![array](image.png)
+![array](images/image.png)
 
 - The array indexing starts from 0, that is why there are n + 1 elements in array. 
 - As in this case there are 8 elements but the index goes up to 7 becuase it begins from 0.
