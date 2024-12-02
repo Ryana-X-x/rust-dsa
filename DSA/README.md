@@ -2,3 +2,4 @@
 
 - rust-dsa.github.io
 - metameeee (Youtube/Twitch)
+- Ayushi Sharma(youtube) - for DSA questions
