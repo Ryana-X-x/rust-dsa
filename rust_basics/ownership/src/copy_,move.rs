@@ -9,5 +9,6 @@ fn main() {
     let s1 = String::from("Hello") ;
     let s2 = s1 ;
     // here the string value of s1 is moved to s2, s1 is no longer usable, because the ownership of the string value has been moved to s2.
+    // As s1 is just a pointer to the datta on the heap Just the pointer will get copied into s2, NOT the whole data on the heap
 
 }
