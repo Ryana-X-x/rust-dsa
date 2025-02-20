@@ -1,2 +1,5 @@
 *.exe
 *.pdb
+Cargo.lock
+Cargo.toml
+target
