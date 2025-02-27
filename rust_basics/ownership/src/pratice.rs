@@ -134,6 +134,7 @@ enum List {
 fn main() {
     // creating a linked list using the enum List 
     // Cons is a tuple struct that wraps an element and a pointer to the next node
+    // making a linked list with 3 elements: 1, 2, 3
     let list = Cons(1, Box::new(Cons(2, Box::new(Cons(3, Box::new(Nil))))) ) ;
 
     print_list(&list) ;
