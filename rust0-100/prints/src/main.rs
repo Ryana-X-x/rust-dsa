@@ -47,9 +47,25 @@ fn clippy_test() {
     let area = pi * 4.0 * 4.0 ;
     println!("{}", area) ;
 }
+#[allow(dead_code)]
+fn print_hex() {
+    let decimal_num = 6969 ;
+    let output = format!("Decimal number {} in hex is: {:#X}", decimal_num, decimal_num) ;
+    let output1 = format!("Decimal number {} in hex is: {:#x}", decimal_num, decimal_num) ;
+    let output2 = format!("Decimal number {} in hex is: {:X}", decimal_num, decimal_num) ;
+    println!("{}\n{}\n{}", output, output1, output2) ;
+
+}
+#[allow(dead_code)]
+fn print_binary() {
+    let number = 6969 ;
+    println!("Number 6969 in binary: {:#b}", number) ;
+}
 
 fn main() {
     // print1() ;
     // format1() ;
     // clippy_test() ;
+    // print_hex() ;
+    // print_binary() ;
 }
