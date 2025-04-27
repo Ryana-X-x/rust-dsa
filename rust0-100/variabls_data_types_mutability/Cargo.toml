@@ -1,0 +1,6 @@
+[package]
+name = "variabls_data_types_mutability"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
